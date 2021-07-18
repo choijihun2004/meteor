@@ -58,8 +58,9 @@ section img#mountains_front
 #text
 {
     position: absolute;
+    margin-bottom: 3vh;
     color: #fff;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: 200;
     margin-right: -3000px;
 }
