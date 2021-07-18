@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>16 + 1 지속 가능한 발전</title>
+        <link rel="stylesheet" href="K_SDGs_index.css">
+    </head>
+    <body>
+        <section>
+            <img src="image\stars.png" id="stars">
+            <img src="image\moon.png" id="moon">
+            <img src="image\mountains_behind.png" id="mountains_behind">
+            <h2 id="text">지속 가능한 발전</h2>
+            <a href="#" id="btn">Play</a>
+            <img src="image\mountains_front.png" id="mountains_front">
+        </section>
+
+        <script src="anime.min.js"></script>
+        <script>
+            var animation = anime.timeline({
+                autoplay: false
+            });
+
+            animation
+            .add({
+                targets: '#btn',
+                top: '1500px',
+                duration: 500,
+                easing: 'easeInOutSine'
+            })
+            
+            .add({
+                targets: '#stars',
+                top: '0px',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            })
+
+            .add({
+                targets: '#mountains_behind',
+                bottom: '0px',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            })
+            
+            .add({
+                targets: '#moon',
+                top: '0px',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            })
+
+            .add({
+                targets: '#mountains_front',
+                bottom: '0px',
+                duration: 1000,
+                easing: 'easeInOutSine'
+            })
+
+            .add({
+                targets: '#text',
+                marginRight: 0,
+                duration: 1000,
+                easing: 'easeInOutSine'
+            })
+            document.querySelector('#btn').onclick = animation.play
+        </script>
+    </body>
+</html>
