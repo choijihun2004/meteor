@@ -64,19 +64,3 @@ section img#mountains_front
     font-weight: 200;
     margin-right: -3000px;
 }
-#btn
-{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin-top: 80px;
-    text-decoration: none;
-    display: inline-block;
-    padding: 8px 50px;
-    background: #fff;
-    border-radius: 40px;
-    font-size: 1.4em;
-    color: #2b1055;
-    z-index: 10000;
-}
