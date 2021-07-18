@@ -11,24 +11,14 @@
             <img src="image\moon.png" id="moon">
             <img src="image\mountains_behind.png" id="mountains_behind">
             <h2 id="text">지속 가능한 발전</h2>
-            <a href="#" id="btn">Play</a>
             <img src="image\mountains_front.png" id="mountains_front">
         </section>
 
         <script src="anime.min.js"></script>
         <script>
-            var animation = anime.timeline({
-                autoplay: false
-            });
+            var animation = anime.timeline({});
 
             animation
-            .add({
-                targets: '#btn',
-                top: '1500px',
-                duration: 500,
-                easing: 'easeInOutSine'
-            })
-            
             .add({
                 targets: '#stars',
                 top: '0px',
