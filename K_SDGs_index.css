@@ -50,7 +50,7 @@ section img#mountains_behind
 }
 section img#mountains_front
 {
-    size: 70%;
+    height: 70%;
     bottom: -100%;
     top: initial;
     z-index: 1000;
