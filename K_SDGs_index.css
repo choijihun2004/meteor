@@ -64,4 +64,5 @@ section img#mountains_front
     font-size: 5vw;
     font-weight: 200;
     margin-right: -3000px;
+    z-index: 10000;
 }
